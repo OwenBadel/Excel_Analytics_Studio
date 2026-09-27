@@ -1,0 +1,30 @@
+# ==========================================
+# GitIgnore Autónomo — Fábrica de Software
+# ==========================================
+
+# Entornos y dependencias
+node_modules/
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+
+# Archivos sensibles y secretos
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Builds, empaquetado y temporales
+dist/
+build/
+*.egg-info/
+.tmp/
+*.log
+.DS_Store
+Thumbs.db
