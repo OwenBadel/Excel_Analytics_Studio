@@ -34,7 +34,7 @@ def main():
 
     app = QApplication(sys.argv)
     app.setApplicationName("Excel Analytics Studio")
-    app.setOrganizationName("Lemon Fábrica de Software")
+    app.setOrganizationName("Owen Badel Hooker")
 
     # Aplicar estilos
     load_stylesheet(app)
